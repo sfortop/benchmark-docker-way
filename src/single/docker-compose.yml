@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  php-fpm-nginx:
+    build:
+      dockerfile: ./single/Dockerfile
+      context: ../
+    ports:
+      - "8080:80"
+    volumes:
+#      - ./php-fpm/www.conf:/usr/local/etc/conf.d/www.conf:ro
+      - ./nginx/benchmark-docker-way.conf:/var/www/html/conf/nginx/benchmark-docker-way.conf:ro
