@@ -25,7 +25,8 @@ cd benchmark-docker-way
 
 ## Conclusion
 
-Yep, it's mostly useless incomplete benchmark. For real app u will got other numbers which can completely change the conclusions
+Yep, it's mostly useless incomplete benchmark. For real app u will got other numbers which can completely change the conclusions.
+
 If you can improve benchmark pull requests are welcome.
 
 Nginx and php-fpm - 2 separate docker containers
